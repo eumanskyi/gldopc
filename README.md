@@ -11,11 +11,12 @@ https://psutil.readthedocs.io/
 Prereqirements to run script:
 
 Ubuntu / Debian:
-
-<sudo apt-get install gcc python3-dev>
-<pip install --no-binary :all: psutil>
-
+```console
+sudo apt-get install gcc python3-dev
+pip install --no-binary :all: psutil
+```
 RedHat / CentOS:
-
+```console
 <sudo yum install gcc python3-devel>
 <pip install --no-binary :all: psutil>
+```
