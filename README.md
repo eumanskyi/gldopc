@@ -1,14 +1,14 @@
 # gldopc
 ### Metrics collection scripts ###
 
-Two unique scripts which provide possibilities to get special metrics.
+Two unique scripts provide possibilities to get special metrics.
 - Memory Metrics
 - CPU Metrics
 
 Implemented with using Python3 and cross-platform library for retrieving information on running processes and system utilization:
 https://psutil.readthedocs.io/
 
-Prereqirements to run script:
+Pre requirements to run the script:
 
 Ubuntu / Debian:
 ```console
@@ -17,6 +17,6 @@ pip install --no-binary :all: psutil
 ```
 RedHat / CentOS:
 ```console
-<sudo yum install gcc python3-devel>
-<pip install --no-binary :all: psutil>
+sudo yum install gcc python3-devel
+pip install --no-binary :all: psutil
 ```
